@@ -1,0 +1,61 @@
+{
+  "hostname": "",
+  "interfaces": [
+    {
+      "name": "",
+      "description": "",
+      "ip_address": "",
+      "subnet_mask": "",
+      "status": "",
+      "protocol": ""
+    }
+  ],
+  "routing": {
+    "routing_protocol": "",
+    "static_routes": [
+      {
+        "destination_network": "",
+        "next_hop": ""
+      }
+    ],
+    "dynamic_routes": [
+      {
+        "network": "",
+        "next_hop": ""
+      }
+    ]
+  },
+  "access_lists": [
+    {
+      "name": "",
+      "type": "",
+      "entries": [
+        {
+          "sequence": "",
+          "action": "",
+          "source": "",
+          "destination": "",
+          "protocol": ""
+        }
+      ]
+    }
+  ],
+  "vlans": [
+    {
+      "id": "",
+      "name": "",
+      "interfaces": []
+    }
+  ],
+  "ntp": {
+    "servers": [],
+    "authentication": ""
+  },
+  "snmp": {
+    "community_strings": [],
+    "trap_servers": []
+  },
+  "syslog": {
+    "servers": []
+  }
+}
